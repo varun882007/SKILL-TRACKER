@@ -1,0 +1,180 @@
+/* Skills Page */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px 60px;
+    background:white;
+}
+header h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #2e1065;
+    letter-spacing: 1px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#1f2937;
+    margin-left:30px;
+    font-weight:bold;
+}
+
+
+
+.skill-form{
+    width: 500px;
+    height: 450px;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 2px solid #d8c8f0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px 60px;
+    background:white;
+}
+header h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #2e1065;
+    letter-spacing: 1px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#1f2937;
+    margin-left:30px;
+    font-weight:bold;
+}
+
+.skill-form h1{
+    color: #2e1065;
+    margin-bottom: 25px;
+}
+
+.skill-form label{
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2e1065;
+}
+
+.skill-form input{
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 2px solid #c4b5fd;
+    border-radius: 10px;
+    background: #f5f3ff;
+    font-size: 18px;
+}
+
+.skill-form button{
+    width: 100%;
+    padding: 15px;
+    background: #8b5cf6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.skill-form button:hover{
+    background: #7c3aed;
+}
+
+/* Layout */
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+/* Skills Overview */
+
+.skills-list h2{
+    color: #2e1065;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+/* Skill Cards */
+
+.skill-card{
+    width: 320px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #d8c8f0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+
+.skill-card h3{
+    font-size: 30px;
+    color: #2e1065;
+    margin-bottom: 15px;
+}
+
+/* Progress Bar */
+
+.progress-bar{
+    width: 100%;
+    height: 10px;
+    background: #e9d5ff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.progress{
+    height: 100%;
+    width: 80%;
+    background: #8b5cf6;
+}
+
+/* Text */
+
+.skill-card p{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/* Level Badge */
+
+.level{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #ede9fe;
+    color: #4c1d95;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Page Background */
+
+body{
+    background: #faf7ff;
+}

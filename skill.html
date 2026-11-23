@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Skill Development Tracker</title>
+    <link rel="stylesheet" href="skill.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h2>SKILL TRACKER</h2>
+        </div>
+
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="skill.html">Skills</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <div class="skills-container">
+
+        <!-- Left Side Form -->
+        <section class="skill-form">
+
+            <h1>My Skills</h1>
+
+            <label for="skill">Skill Name</label>
+            <input type="text" id="skill" placeholder="Enter Skill Name">
+
+            <label for="progress">Progress (%)</label>
+            <input type="number" id="progress" placeholder="Enter Progress">
+
+            <button>Add Skill</button>
+
+        </section>
+
+        <!-- Right Side Skills Overview -->
+        <section class="skills-list">
+
+            <h2>Skills Overview</h2>
+
+            <div class="skill-card">
+
+                <h3>HTML</h3>
+
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%;"></div>
+                </div>
+
+                <p>Progress: 0%</p>
+
+                <span class="level">Beginner</span>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>CSS</h3>
+
+                <div class="progress-bar">
+                    <div class="progress" style="width:0%;"></div>
+                </div>
+
+                <p>Progress: 0%</p>
+
+                <span class="level">Beginner </span>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>JavaScript</h3>
+
+                <div class="progress-bar">
+                    <div class="progress" style="width:0%;"></div>
+                </div>
+
+                <p>Progress: 0%</p>
+
+                <span class="level">Beginner</span>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Skill Development Tracker</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
